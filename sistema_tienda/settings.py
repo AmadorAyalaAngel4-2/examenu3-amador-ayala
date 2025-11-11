@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-lve&z!q$+=5j4i%&y1op8oc*ji&(wdvhobk16ts3rao+(7@pf!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'examenu3AmadorAyalaAngel.pythonanywhere.com'
+]
 
 
 # Application definition
@@ -78,10 +80,10 @@ WSGI_APPLICATION = 'sistema_tienda.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tienda_db',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
+        'NAME': 'examenu3AmadorAy$tienda_db',
+        'USER': 'examenu3AmadorAy',
+        'PASSWORD': 'AAAA060113_carlo',
+        'HOST': 'examenu3AmadorAyalaAngel.mysql.pythonanywhere-services.com',
         'PORT': '3306',
         'OPTIONS': {
             'charset': 'utf8mb4',
